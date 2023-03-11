@@ -77,3 +77,42 @@ header{
 .banner-img{
     margin-top: 70px;
 }
+
+/* ---------------------------
+        Main Section Styles
+----------------------------- */
+
+/* ------------------------------------------- 
+        Feature Section Styles 
+-------------------------------------------- */
+.features-list-area{
+    display: flex;
+    column-gap: 76px;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 130px;
+}
+.feature-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.feature-title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.first-title{
+    color: #131313;
+    font-weight: 700;
+}
+.second-title{
+    color: #FF900E;
+    font-weight: 700; 
+}
+.feature-description{
+    color: #727272;
+    line-height: 26px;
+    margin-bottom: 42px;
+}
