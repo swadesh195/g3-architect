@@ -116,3 +116,16 @@ header{
     line-height: 26px;
     margin-bottom: 42px;
 }
+
+/* -------------------------------------
+        Footer Styles Starts Here
+---------------------------------------- */
+footer{
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+footer p{
+    font-size: 20px;
+    text-align: center;
+    padding: 38px 0;
+}
