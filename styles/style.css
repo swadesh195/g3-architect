@@ -14,7 +14,18 @@ body{
     width: 1440px;
     margin: 0 auto;
 }
-
+.section-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.primary-text{
+    color: #727272;
+}
+.mb-130{
+    margin-bottom: 130px;
+}
 /* -------------------------------------------
         Header area styles starts here
 ---------------------------------------------- */
@@ -115,6 +126,21 @@ header{
     color: #727272;
     line-height: 26px;
     margin-bottom: 42px;
+}
+
+/* -------------------------------------
+        Sponsors Style Starts Here
+---------------------------------------- */
+.sponsor-description{
+    margin-bottom: 50px;
+}
+.sponsors-area{
+    text-align: center;
+}
+.sponsor-company-logo{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(1);
 }
 
 /* -------------------------------------
