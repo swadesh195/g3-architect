@@ -26,6 +26,9 @@ body{
 .mb-130{
     margin-bottom: 130px;
 }
+.text-center{
+    text-align: center;
+}
 /* -------------------------------------------
         Header area styles starts here
 ---------------------------------------------- */
@@ -207,6 +210,24 @@ header{
 .fact-description{
     font-size: 20px;
     font-weight: 600;
+}
+/* --------------------------------
+        Galleries Styles
+----------------------------------- */
+.galleries{
+    padding: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.gallery img{
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.6s;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+    filter: grayscale(1);
 }
 /* -------------------------------------
         Sponsors Style Starts Here
