@@ -317,4 +317,17 @@ Device Responsive Styles
         margin: 30px;
         grid-template-columns: repeat(1, 1fr);
     }
+    .sponsors-area{
+        margin-bottom: 20px;
+    }
+    .sponsor-description{
+        padding: 0 30px;
+    }
+    .sponsor-company-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsor-company-logo img{
+        margin-bottom: 30px;
+    }
 }
