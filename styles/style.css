@@ -313,5 +313,8 @@ Device Responsive Styles
     .fact{
         margin-bottom: 30px;
     }
-
+    .galleries{
+        margin: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
