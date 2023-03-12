@@ -96,6 +96,10 @@ header{
 /* ------------------------------------------- 
         Feature Section Styles 
 -------------------------------------------- */
+
+/* -------------------------
+        Feature List Styles
+--------------------------- */
 .features-list-area{
     display: flex;
     column-gap: 76px;
@@ -126,6 +130,24 @@ header{
     color: #727272;
     line-height: 26px;
     margin-bottom: 42px;
+}
+/* ----------------------------------
+        Feature Offer Styles
+------------------------------------- */
+.features-offer-area{
+    display: flex;
+    justify-content: space-between;
+    gap: 146px;
+}
+.offer{
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.offer-title{
+    color: #131313;
+    margin-bottom: 10px;
 }
 
 /* -------------------------------------
