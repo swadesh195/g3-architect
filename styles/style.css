@@ -191,6 +191,13 @@ header{
     border: 1px solid #FF900E;
     text-align: center;
     padding: 45px 36px 60px;
+    border-radius: 8px;
+    transition: 1s;
+}
+.fact:hover{
+    border: 1px solid #fff;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.3);
+    transform: rotate(360deg);
 }
 .fact-amount{
     color: #424242;
