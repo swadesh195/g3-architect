@@ -175,6 +175,32 @@ header{
     font-weight: 500;
     text-align: center;
 }
+/* -------------------------
+        Fact Styles
+-------------------------- */
+.facts-title{
+    margin-bottom: 12px;
+}
+.facts{
+    margin-top: 100px;
+    margin-bottom: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+.fact{
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 45px 36px 60px;
+}
+.fact-amount{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+}
+.fact-description{
+    font-size: 20px;
+    font-weight: 600;
+}
 /* -------------------------------------
         Sponsors Style Starts Here
 ---------------------------------------- */
